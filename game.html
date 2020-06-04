@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="57x57" href="static/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Three R's – Game</title>
+    
+    <!-- Style css -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/game.css">
+</head>
+<body>
+    <div id="board-game"  class="container">
+        <div id="level">
+            <button type="submit" class="btn" id="selectedGameLevel" onclick="selectedGameLevel('level1')">Nível 1</button>
+            <button type="submit" class="btn" id="selectedGameLevel" onclick="selectedGameLevel('level2')">Nível 2</button>
+            <!-- <button type="submit" class="btn" id="selectedGameLevel" onclick="selectedGameLevel('level3')">Nível 3</button>
+            <button type="submit" class="btn" id="selectedGameLevel" onclick="selectedGameLevel('level4')">Nível 4</button>
+            <button type="submit" class="btn" id="selectedGameLevel" onclick="selectedGameLevel('level5')">Nível 5</button> -->
+        </div>
+        <div id="loader" class="hidden"></div>
+        <div id="game-hidden" class="container hidden">
+            <!-- <div id="history-div" class="justify-center flex-column">
+                
+                <p id="history"></p>
+                <img src="" id="history-img" alt="">
+
+                <button type="submit" class="btn" id="removeGameHidden" onclick="removeGameHidden(event)">Avançar</button>
+            </div> -->
+            <div id="game" class="justify-center flex-column hidden">
+                <div id="hud">
+                    <div id="hud-item">
+                        <p id="progressText" class="hud-prefix">
+                            Question
+                        </p>
+                        <div id="progressBar">
+                            <div id="progressBarFull"></div>
+                        </div>
+                    </div>
+                    <div id="hud-item">
+                        <p class="hud-prefix">
+                            Score
+                        </p>
+                        <h1 class="hud-main-text" id="score">
+                            0
+                        </h1>
+                    </div>
+                </div>
+                <h2 id="question"></h2>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text" data-number="1"></p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <p class="choice-text" data-number="2"></p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <p class="choice-text" data-number="3"></p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">D</p>
+                    <p class="choice-text" data-number="4"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/game.js"></script>
+</body>
+</html>

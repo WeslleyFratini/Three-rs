@@ -1,0 +1,159 @@
+{
+  "level1": {
+    "historys": [
+      {
+        "history": "A coleta seletiva de lixo vem tomando um espaço cada vez maior. Seja em casa, empresa ou grandes espaços públicos ou privados, é importante ter a consciência da necessidade de reciclar o lixo. Para facilitar esse trabalho é fundamental separar os elementos para que sejam encaminhados corretamente ao seu destino: o que é ou não reciclável. Exatamente por isso que as lixeiras de coleta seletiva são divididas em cores onde cada um delas tem uma finalidade.",
+      "image": "cores_coleta_seletiva.jpg"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Quais as cores das lixeiras para coleta seletiva?",
+        "choice1": "Amarelo: Metal; Azul: Papel; Verde: Vidro; Vermelho: Plástico;",
+        "choice2": "Amarelo: Metal; Azul: Plástico; Verde: Papel; Vermelho: Vidro;",
+        "choice3": "Amarelo: Metal; Azul: Papel; Verde: Vidro; Vermelho: Plástico;",
+        "choice4": "Amarelo: Plástico; Azul: Vidro; Verde: Papel; Vermelho: Metal;",
+        "answer": 1
+      },
+      {
+        "question": "Qual o tipo de material que colocamos na lixeira de cor amarela?",
+        "choice1": "Papel e jornal",
+        "choice2": "Lixo orgânico e outros resíduos",
+        "choice3": "Metal e aço",
+        "choice4": "Garrafas pet e caixas de papelão",
+        "answer": 3
+      },
+      {
+        "question": "Quais os materiais que podem ser reciclados?",
+        "choice1": "Papel, jornal e vidro",
+        "choice2": "Metal, plástico e óleo vegetal",
+        "choice3": "Plástico, papel carbono e isopor",
+        "choice4": "Vidro, metal e óleo vegetal",
+        "answer": 1
+      },
+      {
+        "question": "Para começar a reutilização do lixo nas empresas é importante primeiramente que a mesma tenha?",
+        "choice1": "Uma logo oficial para a campanha",
+        "choice2": "Um prêmio pela melhor campanha de reciclagem",
+        "choice3": "Nenhuma das alternativas",
+        "choice4": "Local apropriado para o armazenamento correto e coleta seletiva do lixo",
+        "answer": 4
+      },
+      {
+        "question": "Como incentivar a reciclagem no ambiente de trabalho?",
+        "choice1": "Obtendo mais impressoras",
+        "choice2": "Reduzindo o uso de matérias descartáveis, e reduzindo impressões desnecessárias",
+        "choice3": "Contratando mais funcionários ",
+        "choice4": "Usando escada ao invés de elevador",
+        "answer": 2
+      }
+    ]
+  },
+  "level2": {
+    "historys": [
+      {
+        "history": "22222.",
+        "image": ".../static/images/questions/22222.jpg"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Como preservar árvores e florestas?",
+        "choice1": "Construindo uma casa na árvore.",
+        "choice2": "Reciclando papéis, jornais e revistas.",
+        "choice3": "Reutilizando metais e vidros.",
+        "choice4": "Indo em parques.",
+        "answer": 2
+      },
+      {
+        "question": "Qual é o cuidado a ser tomado antes de enviar um determinado material para a reciclagem?",
+        "choice1": "Cortá-lo em pedaços pequenos.",
+        "choice2": "Misturá-lo com materiais do mesmo gênero.",
+        "choice3": "Limpá-lo.",
+        "choice4": "Colocá-lo numa sacola.",
+        "answer": 2
+      },
+      {
+        "question": "Quais objetos NÃO podem ser reciclados?",
+        "choice1": "Embalagem de salgadinho; papel celofane; prato de vidro.",
+        "choice2": "Garrafa PET; papel sulfite; cacos de vidro; lata de refrigerante.",
+        "choice3": "Papelão; frasco de perfume; papel alumínio.",
+        "choice4": "Todos acima são recicláveis.",
+        "answer": 4
+      },
+      {
+        "question": "O que é coleta seletiva?",
+        "choice1": "Processo de separação e recolhimento dos resíduos para o reaproveitamento por meio de reciclagem.",
+        "choice2": "Destinação de resíduos para lixões e aterros.",
+        "choice3": "Processo de envio de todo o lixo produzido para cooperativas ou entrega para catadores de rua.",
+        "choice4": "A escolha aleatória do melhor lixo produzido.",
+        "answer": 1
+      },
+      {
+        "question": "O que fazer com o lixo eletrônico – pilhas, baterias e equipamentos quebrados?",
+        "choice1": "Recolher, organizar e armazenar em casa o máximo de tempo que der.",
+        "choice2": "Juntar com plásticos e metais.",
+        "choice3": "Jogar no lixo comum.",
+        "choice4": "Procurar locais específicos para seu descarte.",
+        "answer": 4
+      }
+    ]
+  },
+  "level3": {
+    "historys": [
+      {
+        "history": "33333.",
+        "image": ".../static/images/questions/33333.jpg"
+      }
+    ],
+    "questions": [
+      {
+        "question": "",
+        "choice1": "33333;",
+        "choice2": "33333;",
+        "choice3": "33333;",
+        "choice4": "33333;",
+        "answer": 1
+      }
+    ]
+  },
+  "level4": {
+    "historys": [
+      {
+        "history": "44444.",
+        "image": ".../static/images/questions/44444.jpg"
+      }
+    ],
+    "questions": [
+      {
+        "question": "",
+        "choice1": "44444;",
+        "choice2": "44444;",
+        "choice3": "44444;",
+        "choice4": "44444;",
+        "answer": 1
+      }
+    ]
+  },
+  "level5": {
+    "historys": [
+      {
+        "history": "55555.",
+        "image": ".../static/images/questions/55555.jpg"
+      }
+    ],
+    "questions": [
+      {
+        "question": "",
+        "choice1": "55555;",
+        "choice2": "55555;",
+        "choice3": "55555;",
+        "choice4": "55555;",
+        "answer": 1
+      }
+    ]
+  }
+}
+
+
+
